@@ -13,3 +13,6 @@ C语言程序设计课程须知
 9. 实验报告题目与模板 用链接下载： 
 链接：https://pan.baidu.com/s/1Vc319WHbyzKgD60wxO4zYw 
 提取码：stwv 
+
+
+10.如果虚拟机无法全屏显示或者全屏显示只能显示中间的显示区域，需要安装vmware-tools,有两个安装方式，一个是在创建虚拟机时，弹出的对话框问是否安装vmware-tools，选择安装。 第二个时创建时没有安装，进入ubuntu以后先运行：sudo apt-get update 然后运行sudo apt-get install open-vm-tools 安装好以后重启ubuntu系统。 如果出现重启完仍然无法全屏显示，那么需要用命令xrandr 在terminal输入xrandr，查看系统支持的分辨率类型。 可以看一下自己windows系统的当前分辨率，比如1980 * 1200 在terminal输入xrandr -s 1920x1200 即可改变当前的分辨率。
